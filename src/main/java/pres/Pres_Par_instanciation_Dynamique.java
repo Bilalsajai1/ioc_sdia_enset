@@ -1,13 +1,9 @@
 package pres;
-
 import dao.IDao;
 import metier.IMetier;
-
-
 import java.io.File;
 import java.lang.reflect.Method;
 import java.util.Scanner;
-
 public class Pres_Par_instanciation_Dynamique {
     public static void main(String[] args) throws Exception {
         Scanner scanner= new Scanner(new File("config.txt"));
@@ -23,5 +19,4 @@ public class Pres_Par_instanciation_Dynamique {
        method.invoke(metier,dao);
         System.out.println("résultat :" +metier.calcul());
     }
-
 }
