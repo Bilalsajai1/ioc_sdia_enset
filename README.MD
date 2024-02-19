@@ -17,6 +17,7 @@ des dépendances</h1>
 <br>
     <img src="captures/6.jpg">
     avec le fichier config.txt est : 
+<br>
     <img src="captures/7.jpg">
   <li>En utilisant le Framework Spring :
 <ul>
